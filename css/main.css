@@ -10,17 +10,24 @@ body {
     box-sizing: inherit;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Myriad Pro';
     src: url('../fonts/MyriadPro-Bold.woff2') format('woff2'), url('../fonts/MyriadPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: 'Gotham';
     src: url('../fonts/Gotham-Medium.woff2') format('woff2'), url('../fonts/Gotham-Medium.woff') format('woff');
     font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.woff2') format('woff2'), url('../fonts/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -60,13 +67,12 @@ body {
 }
 
 .about-section {
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     text-align: center;
     background: #fff;
 }
 
 .services-section {
-    padding: 10px 0px;
     text-align: center;
     background: #fff;
 }
@@ -77,7 +83,7 @@ body {
 }
 
 .clientes-section {
-    padding: 27px 0px;
+    padding-bottom: 80px;
     text-align: center;
     background: #fff;
 }
@@ -93,24 +99,27 @@ body {
 }
 
 #descripcion {
-    padding: 30px 0px;
+    padding: 80px 0px;
 }
 
 .des_texto {
     text-align: center;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     font-size: 1.3em;
     font-family: 'Myriad Pro';
 }
 
 .parallax-window {
-    min-height: 150px;
     background: transparent;
     text-align: center;
-    color: #fff;
     padding: 150px 0px;
-    font-family: 'Myriad Pro';
+}
+
+.parallax-window h1 {
+    font-family: 'Arial';
+    font-weight: bold;
+    color: #fff;
 }
 
 .borde_azul {
@@ -141,14 +150,18 @@ body {
     line-height: 92px;
 }
 
+.somos_text {
+    padding: 80px 10px;
+}
+
 .somos_text p {
-    padding: 7px 0px;
     font-size: 1.2em;
     font-family: 'Myriad Pro';
 }
 
 .somos_text h1 {
-    font-family: 'Myriad Pro';
+    font-family: 'Arial';
+    font-weight: bold;
     font-size: 2em;
 }
 
@@ -173,6 +186,7 @@ body {
 }
 
 .servicios_des {
+    padding: 80px 0px;
     text-align: center;
     font-family: 'Myriad Pro';
 }
@@ -186,13 +200,19 @@ body {
 }
 
 .servicios_des h1 {
-    font-size: 2.2em;
-    font-family: 'Myriad Pro';
+    font-size: 2em;
+    font-family: 'Arial';
+    font-weight: bold;
 }
 
 .titulo_proyectos {
-    padding: 20px 0px;
-    font-family: 'Myriad Pro';
+    padding: 80px 0px;
+}
+
+.titulo_proyectos h1 {
+    font-size: 2em;
+    font-family: 'Arial';
+    font-weight: bold;
 }
 
 .caption-bottom-center {
@@ -201,6 +221,7 @@ body {
     left: 64px;
     color: #fff;
     font-size: 18px;
+    font-family: 'Myriad Pro';
 }
 
 .slide_clientes div img {
@@ -208,8 +229,13 @@ body {
 }
 
 .titulo_clientes {
-    padding: 20px 0px;
-    font-family: 'Gotham';
+    padding: 80px 0px;
+}
+
+.titulo_clientes h1 {
+    font-size: 2em;
+    font-family: 'Arial';
+    font-weight: bold;
 }
 
 .form-group .control-label {
@@ -224,6 +250,12 @@ body {
 
 .titulo_contacto {
     padding: 40px 0px;
+}
+
+.titulo_contacto h1 {
+    font-size: 2em;
+    font-family: 'Arial';
+    font-weight: bold;
     color: #fff;
 }
 
@@ -269,6 +301,7 @@ body {
     color: #fff;
     font-size: 1em;
     width: 85%;
+    font-family: 'Myriad Pro';
 }
 
 .btn-enviar {
@@ -350,7 +383,6 @@ body {
     text-align: left;
 }
 
-
 /* Menú*/
 
 .navbar-default .navbar-toggle:focus,
@@ -418,7 +450,6 @@ body {
     }
 }
 
-
 /* PANTALLAS GRANDES*/
 
 @media (min-width: 1550px) and (max-width: 1680px) {
@@ -482,7 +513,6 @@ body {
         top: 43%;
     }
 }
-
 
 /* MOBILES */
 
