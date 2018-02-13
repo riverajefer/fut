@@ -60,13 +60,13 @@ body {
 }
 
 .about-section {
-    padding-top: 20px;
+    padding: 20px 0px;
     text-align: center;
     background: #fff;
 }
 
 .services-section {
-    padding-top: 40px;
+    padding: 10px 0px;
     text-align: center;
     background: #fff;
 }
@@ -93,7 +93,7 @@ body {
 }
 
 #descripcion {
-    padding: 80px 0px;
+    padding: 30px 0px;
 }
 
 .des_texto {
@@ -142,7 +142,7 @@ body {
 }
 
 .somos_text p {
-    padding: 15px 0px;
+    padding: 7px 0px;
     font-size: 1.2em;
     font-family: 'Myriad Pro';
 }
@@ -180,7 +180,7 @@ body {
 .servicios_des p {
     width: 90%;
     margin: 0 auto;
-    padding: 30px 0px 80px 0px;
+    padding-bottom: 20px;
     font-size: 1.2em;
     font-family: 'Myriad Pro';
 }
@@ -191,7 +191,7 @@ body {
 }
 
 .titulo_proyectos {
-    padding-top: 40px;
+    padding: 20px 0px;
     font-family: 'Myriad Pro';
 }
 
@@ -208,7 +208,7 @@ body {
 }
 
 .titulo_clientes {
-    padding-top: 40px;
+    padding: 20px 0px;
     font-family: 'Gotham';
 }
 
@@ -223,7 +223,7 @@ body {
 }
 
 .titulo_contacto {
-    padding-top: 20%;
+    padding: 40px 0px;
     color: #fff;
 }
 
