@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Compañía reconocida en el mercado como creativa, innovadora, cercana, organizada y competitiva que satisface las expectativas de nuestros clientes.">
+    <meta name="author" content="">
+
+    <title>FUTURE INSIGHT</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" / <!-- HTML5
+        Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a class="page-scroll" href="#page-top">INICIO</a>
+            <a class="page-scroll" onclick="closeNav()" href="#quienes_somos">QUIÉNES SOMOS</a>
+            <a class="page-scroll" onclick="closeNav()" href="#servicios">SERVICIOS</a>
+            <a class="page-scroll" onclick="closeNav()" href="#portafolio">PORTAFOLIO</a>
+            <a class="page-scroll" onclick="closeNav()" href="#contacto">CONTACTO</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button onclick="openNav()" type="button" class="navbar-toggle collapsed" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll logo" href="#page-top">
+                    <img src="images/logo.png" width="70%" />
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#page-top">INICIO</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#quienes_somos">QUIÉNES SOMOS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#servicios">SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portafolio">PORTAFOLIO</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacto">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/banner_home.jpg" />
+                    <div class="carousel-caption">
+                        <p class="borde_azul_home">&nbsp;</p>
+                        <h3>LO QUE MEJOR HACEMOS</h3>
+                        <p>
+                            Desarrollar, solucionar y acompañar las necesidades de nuestros clientes en una forma competitiva, creativa e innovadora
+                            con el mejor servicio y cumplimiento.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner_home.jpg" />
+                    <div class="carousel-caption">
+                        <p class="borde_azul_home">&nbsp;</p>
+                        <h3>LO QUE MEJOR HACEMOS</h3>
+                        <p>
+                            Desarrollar, solucionar y acompañar las necesidades de nuestros clientes en una forma competitiva, creativa e innovadora
+                            con el mejor servicio y cumplimiento.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <div class="container_" id="descripcion">
+            <p class="des_texto">
+                Somos una compañía reconocida en el mercado como creativa, innovadora, cercana, organizada y competitiva que satisface las
+                expectativas de nuestros clientes.
+            </p>
+            <p class="borde_azul"></p>
+        </div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="images/innovacion_parallax.jpg">
+            <h1>INNOVACIÓN</h1>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos Section -->
+    <section id="quienes_somos" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 somos_text">
+                    <h1>QUIÉNES SOMOS</h1>
+                    <p>
+                        Future Insight S.A.S es una empresa Colombiana de Arquitectura y Construcción, consolidando nuestra historia, nuestro recurso
+                        humano, calidad de nuestro trabajo y nuestro compromiso con el cliente
+                    </p>
+                    <p>
+                        Future Insight nace de generar una propuesta de valor integral entre la marca, la arquitectura, el interiorismo, el desarrollo,
+                        la operación y la construcción física por arquitectos, diseñadores e ingenieros inspirados en desarrollar
+                        ideas en compañías que buscan la mejora continua y la innovación convirtiéndonos en aliados estratégicos
+                        y apoyo para el desarrollo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid_somos">
+            <div class="image_con">
+                <img src="images/creatividad.png" class="img-responsive" alt="creatividad" />
+                <div class="caption-bottom-left">
+                    <div class="grid_caption">
+                        <div>
+                            <img src="images/sep.png" alt="Sep">
+                        </div>
+                        <div class="txt_caption">
+                            <span> CREATIVIDAD </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image_con">
+                <img src="images/portafolio.png" class="img-responsive" alt="creatividad" />
+                <div class="caption-bottom-left">
+                    <div class="grid_caption">
+                        <div>
+                            <img src="images/sep.png" alt="Sep">
+                        </div>
+                        <div class="txt_caption">
+                            <span> SERVICIO </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image_con">
+                <img src="images/calidad.png" class="img-responsive" alt="creatividad" />
+                <div class="caption-bottom-left">
+                    <div class="grid_caption">
+                        <div>
+                            <img src="images/sep.png" alt="Sep">
+                        </div>
+                        <div class="txt_caption">
+                            <span> CALIDAD </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 servicios_des">
+                    <h1>SERVICIOS</h1>
+                    <p>
+                        Ofrecemos una cadena de servicios integrales, que aportan valor a todas las etapas de los procesos de diseño y construcciòn,
+                        apoyando a nuestros clientes desde la planeación, diseño, permisos y licencias si es necesario, hasta
+                        la ejecución de la obra civil, mobiliario, instalaciones técnicas y acabados. Nuestro compromiso
+                        de calidad nos permite cumplir con los objetivos y metas de nuestros clientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="grid_servicios">
+            <div class="item_servicio">
+                <img src="images/arquitectura.png" alt="Arquitectura" />
+                <div class="caption-center">
+                    ARQUITECTURA Y CONSTRUCCIÓN
+                </div>
+            </div>
+            <div class="item_servicio">
+                <img src="images/diseno.png" alt="Diseño" />
+                <div class="caption-center">
+                    DISEÑO
+                </div>
+            </div>
+            <div class="item_servicio">
+                <img src="images/mobilidad.png" alt="MOBILIARIO" />
+                <div class="caption-center">
+                    MOBILIARIO RETAIL
+                </div>
+            </div>
+            <div class="item_servicio">
+                <img src="images/inmobiliario.png" alt="inmobiliario" />
+                <div class="caption-center">
+                    INMOBILIARIO
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Portafolio Section -->
+    <section id="portafolio" class="portafolio-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 titulo_proyectos">
+                    <h1>PROYECTOS</h1>
+                </div>
+            </div>
+        </div>
+        <div class="grid_proyectos">
+            <div class="image_con">
+                <img src="images/optica.png" alt="creatividad" />
+                <div class="caption-bottom-center">
+                    <span> ÓPTICA ITALIANA </span>
+                </div>
+            </div>
+            <div class="image_con">
+                <img src="images/kokoriko.png" alt="creatividad" />
+                <div class="caption-bottom-center-kokoriko">
+                    <span>
+                        KOKORIKO MIMOS
+                        <br>
+                    </span>
+                    <span>
+                        MANTENIMIENTO DE LOCALES COMERCIALES REDES ELÉCTRICAS, VOZ Y DATOS, HIDROSANITARIAS EXTINCIÓN Y DETECCIÓN. PINTURAS: VINILOS,
+                        EPOXICAS, ESMALTES
+                    </span>
+                </div>
+            </div>
+            <div class="image_con">
+                <img src="images/limpieza.png" alt="optica" />
+                <div class="caption-bottom-center">
+                    <span> BOGOTANA DE LIMPIEZA </span>
+                </div>
+            </div>
+            <div class="image_con">
+                <img src="images/xp.png" alt="creatividad" />
+                <div class="caption-bottom-center">
+                    <span> EXPERIENCE </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTES Section -->
+    <section id="clientes" class="clientes-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 titulo_clientes">
+                    <h1>CLIENTES</h1>
+                </div>
+            </div>
+        </div>
+        <div class="slide_clientes">
+            <div>
+                <img src="images/clientes/slide1.png" alt="slide1">
+            </div>
+            <div>
+                <img src="images/clientes/slide2.png" alt="slide1">
+            </div>
+            <div>
+                <img src="images/clientes/slide3.png" alt="slide1">
+            </div>
+            <div>
+                <img src="images/clientes/slide4.png" alt="slide1">
+            </div>
+            <div>
+                <img src="images/clientes/slide5.png" alt="slide1">
+            </div>
+            <div>
+                <img src="images/clientes/slide6.png" alt="slide1">
+            </div>
+            <div>
+                <img src="images/clientes/slide7.png" alt="slide1">
+            </div>
+            <div>
+                <img src="images/clientes/slide8.png" alt="slide1">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="grid_contacto">
+                <div class="titulo_contacto">
+                    <h1>CONTÁCTANOS</h1>
+                </div>
+                <div>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="tel" class="col-sm-3 control-label">Número Tel:</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" required id="tel" placeholder="Teléfono">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-3 control-label">E-mail</label>
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" id="email" required placeholder="email">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="col-sm-3 control-label">Mensaje</label>
+                            <div class="col-sm-8">
+                                <textarea name="" class="form-control" id="" placeholder="Mensaje"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-5 col-sm-4">
+                                <button type="submit" class="btn btn-default btn-enviar">ENVIAR</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row footer">
+                <div class="col-lg-3 col-md-3 col-xs-3 col-md-offset-2">
+                    <img src="images/logo_blanco.png" class="img-responsive" alt="logo">
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-6 info_footer">
+                    <p>
+                        Calle 100 Nr. 19-61 Oficina 401. Centro empresarial cien.
+                        <br> Teléfonos: 316.868.23.73 - 315.810.11.88
+                        <br> comercial@futureinsight.com.co
+                        <br> Bogotá - Colombia
+                        <br>
+                        <a href="#">futureinsight.com.co</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#page-top" class="page-scroll" id="myBtnGoTop" title="Go to top">
+        <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+    </a>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/parallax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+</body>
+
+</html>
