@@ -80,11 +80,16 @@ p {
   /* padding: 20px 0px; */
   text-align: center;
   background: #fff;
+  padding-bottom: 20%;
+}
+#descripcion {
+  background-color: rgb(203, 204, 206);
 }
 
 .services-section {
   text-align: center;
-  background: #fff;
+  background: rgb(203, 204, 206);
+  padding-bottom: 20%;
 }
 
 .portafolio-section {
@@ -233,18 +238,24 @@ p {
 
 .caption-bottom-center {
   position: absolute;
-  text-align: end;
-  top: 290px;
-  left: 35%;
+  top: 140px;
+  left: 30%;
   bottom: 20px;
   color: #fff;
   font-size: 18px;
   font-family: 'Myriad Pro';
 }
 
+/* tamaño carrussel */
 .slide_clientes div img {
-  display: inline-flexbox;
-  width: 10%;
+  text-align: right;
+  width: 80%;
+  padding-left: 5%;
+}
+@media (min-width: 375px) and (max-width: 500px) {
+  .slide_clientes {
+    padding-left: 2%;
+  }
 }
 
 .titulo_clientes {
@@ -314,12 +325,22 @@ p {
 
 .caption-bottom-center-kokoriko {
   position: absolute;
-  text-align: center;
+
+  top: 50px;
   bottom: 20px;
-  left: 30px;
+  left: 25px;
   color: #fff;
   font-size: 1em;
   width: 85%;
+  font-family: 'Myriad Pro';
+}
+.caption-bottom-center-bogotana {
+  position: absolute;
+  top: 140px;
+  left: 20%;
+  bottom: 20px;
+  color: #fff;
+  font-size: 18px;
   font-family: 'Myriad Pro';
 }
 
@@ -555,10 +576,11 @@ p {
     display: none;
   }
   .caption-bottom-center-kokoriko {
+    top: 60px;
     position: absolute;
-    text-align: left;
+    text-align: center;
     bottom: 20px;
-    left: 63px;
+    left: 40px;
     color: #fff;
     font-size: 1em;
     width: 71%;
@@ -584,11 +606,35 @@ p {
   }
   .caption-bottom-center-kokoriko {
     position: absolute;
-    text-align: left;
+    text-align: center;
     bottom: 20px;
-    left: 63px;
+    left: 40px;
     color: #fff;
     font-size: 1em;
     width: 71%;
   }
+}
+
+.icon-social a img {
+  max-width: 10%;
+  padding-left: 5rem;
+  padding-bottom: 3rem;
+}
+@media (min-width: 320px) and (max-width: 890px) {
+  .icon-social a img {
+    max-width: 25%;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+  }
+  .telefono a img {
+    max-width: 25%;
+  }
+}
+
+.telefono a {
+  text-decoration: none;
+  color: #fff;
+}
+.telefono a img {
+  max-width: 5%;
 }

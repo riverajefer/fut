@@ -1,0 +1,120 @@
+/* .oculta {
+  display: none;
+} */
+section#trabajos {
+  background-color: #fff;
+  border-radius: 0.5em;
+  margin: 0 auto;
+  max-width: 100%;
+  /* padding: 10em; */
+  text-align: center;
+}
+
+.esconder {
+  display: none;
+}
+
+.portafolio {
+  margin: 1em auto;
+}
+.portafolio article {
+  display: inline;
+  padding: 1em;
+}
+
+.portafolio2 {
+  display: none;
+}
+.image_con {
+  opacity: 1;
+  filter: alpha(opacity=20);
+  -ms-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: al 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.image_con:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=10);
+  -ms-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: al 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+@media screen and (min-width: 1080px) {
+  section#trabajos {
+    max-width: 90%;
+  }
+  .portafolio article {
+    padding: 0.5em;
+  }
+}
+@media screen (min-width: 600px) and (max-width: 800px) {
+  section#trabajos {
+    max-width: 95%;
+    padding: 2em;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.portafolio article {
+    display: block;
+    margin: 0.5em;
+  }
+}
+
+/* html,
+body,
+div,
+ul {
+  margin: 0;
+  padding: 0;
+} */
+
+/* body {
+  color: #262626;
+  background: #f4f4f4;
+  font: normal 12px/18px Verdana, sans-serif;
+} */
+/* 
+#content {
+  width: 400px;
+  margin: 40px auto 0 auto;
+  padding: 0 60px 30px 60px;
+  border: solid 1px #cbcbcb;
+  background: #fafafa;
+  -moz-box-shadow: 0px 0px 10px #cbcbcb;
+  -webkit-box-shadow: 0px 0px 10px #cbcbcb;
+} */
+
+/* hr {
+  border: none;
+  height: 1px;
+  line-height: 1px;
+  background: #e5e5e5;
+  margin-bottom: 20px;
+  padding: 0;
+} */
+
+a {
+  outline-width: 50px;
+  position: relative;
+}
+
+/* a img {
+  padding: 1px;
+  margin: 1px 1px 1px 0;
+  vertical-align: bottom;
+} */
+
+a img.last {
+  margin-right: 10px;
+}
+
+ul {
+  margin-bottom: 24px;
+  padding-left: 200px;
+}
