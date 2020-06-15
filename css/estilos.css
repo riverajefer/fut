@@ -53,7 +53,7 @@ section#trabajos {
     padding: 0.5em;
   }
 }
-@media screen (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 800px) {
   section#trabajos {
     max-width: 95%;
     padding: 2em;
